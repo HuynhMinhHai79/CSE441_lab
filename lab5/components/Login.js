@@ -40,7 +40,7 @@ const Login = ({navigation}) => {
       Alert.alert('Success', 'Login successful!');
       navigation.reset({
         index: 0,
-        routes: [{name: 'Home'}],
+        routes: [{name: 'Add'}],
       });
     } catch (err) {
       setError(err);
